@@ -1,4 +1,5 @@
-import { Entity, PrimaryGeneratedColumn, Column, Timestamp } from "typeorm";
+import { Entity, PrimaryGeneratedColumn, Column, CreateDateColumn } from "typeorm";
+
 
 @Entity()
 export class User {
@@ -14,7 +15,7 @@ export class User {
     @Column()
     password: string
 
-    @Column({name: 'created_at'})
+    @CreateDateColumn({ name: 'created_at', type: 'timestamp' })
     createdAt: Date;
 }
 
