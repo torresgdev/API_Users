@@ -33,8 +33,8 @@ Este é um projeto de exemplo que implementa um CRUD completo do módulo `User` 
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/nest-users-api.git
-cd nest-users-api
+git clone https://github.com/torresgdev/API_Users
+cd API_Users
 ```
 
 2. Suba os containers com Docker Compose
